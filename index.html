@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Calculator</title>
+    <link rel="stylesheet" href="./css/style.css"> 
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator-box">
+        <div class="text-box"></div>
+        <div class="button-box">
+            <div class="number-buttons"></div>
+            <div class="operator-buttons">
+                <button id="backspace" class="operator-button"
+                onclick="backspace()">&lt-</button>
+                <button id="reset" class="operator-button"
+                onclick="reset(true)">Clear</button>
+                <button id="plus" class="operator-button">+</button>
+                <button id="minus" class="operator-button">-</button>
+                <button id="times" class="operator-button">*</button>
+                <button id="divide" class="operator-button">/</button>
+                <button id="execute" class="operator-button large-button"
+                onclick="execute()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
